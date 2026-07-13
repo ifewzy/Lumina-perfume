@@ -445,3 +445,72 @@ footer h2{
     letter-spacing: 4px;
   }
 }
+/* ========================= */
+/* Responsive Design */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  nav{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero{
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 8%;
+  }
+
+  .hero-text{
+    max-width: 100%;
+  }
+
+  .hero-text h1{
+    font-size: 3rem;
+  }
+
+  .hero-text p{
+    width: 100%;
+  }
+
+  .buttons{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-image img{
+    width: 300px;
+    margin-top: 40px;
+  }
+
+  .stats{
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .feature-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .collection-container{
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+}
