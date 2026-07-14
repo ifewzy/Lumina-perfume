@@ -442,7 +442,7 @@ footer h2{
   }
 
   .hero-image img{
-    width: 300px;
+    width: 250px;
     margin-top: 40px;
   }
 
@@ -504,5 +504,15 @@ footer h2{
   .newsletter-box button{
     width: 100%;
     max-width: 350px;
+  }
+  nav h2{
+    font-size: 1.8rem;
+  }
+  .hero-image img{
+    width: 250px;
+  }
+  .collection-card{
+    width: 100%;
+    max-width: 320px;
   }
 }
